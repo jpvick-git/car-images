@@ -1,6 +1,8 @@
-"*.csv" 
-"*.zip" 
-"*.tmp" 
-"__pycache__/" 
-"*.py" 
-"*.env" 
+# Ignore everything by default
+*
+
+# Allow folders
+!*/
+
+# Allow only JPG images inside the downloads folder
+!downloads/**/*.jpg
